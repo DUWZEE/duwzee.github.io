@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.duwzee,
+.beats,
+.apple_watch,
+.galaxy_buds {
+    width: 100%;
+    height: 100vh;
+    padding: 0 80px;
+}
+
+.section_container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.duwzee {
+    background-color: #161A1D;
+}
+
+.beats {
+    background-color: #A4161A;
+}
+
+.apple_watch {
+    background-color: #0B090A;
+}
+
+.galaxy_buds {
+    background-color: #FFFFFF;
+}
+
+.image {
+    width: 400px;
+}
+
+.image > img {
+    width: 100%;
+}
+
+.text {
+    width: 350px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-align: left;
+
+}
+
+.text > .title {
+    font-size: 82px; 
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.duwzee > .section_container > .text {
+    color: #fff;
+}
+
+.text > .description {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.beats > .section_container > .image {
+    order: 2;
+    width: 500px;
+}
+
+.beats p {
+    color: #fff;
+}
+.apple_watch p {
+    color: #fff;
+}
+.galaxy_buds p {
+    color: #000;
+}
+
+
+.galaxy_buds > .section_container > .text {
+    color: #fff;
+}
+
+.swiper-container-horizontal>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite, 
+.swiper-container-vertical>.swiper-pagination-progressbar {
+    position: absolute;
+    left: 95%;
+    top: 25%;
+    height: 50%;
+}
