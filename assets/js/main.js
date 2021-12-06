@@ -27,21 +27,21 @@ function time() {
 }
 function christmastime() {
     var today = new Date();
-    var date = '<b>' + (today.getMonth() - 11) + ' month<br>' + (22 - today.getDate()) + ' days <br>';
+    var date = '<b>' + (today.getMonth() - 11) + ' month<br>' + (24 - today.getDate()) + ' days <br>';
     var time = (24 - today.getHours()) + " hours <br>" + (60 - today.getMinutes()) + " minutes <br>" + (60 - today.getSeconds()) + ' seconds </b>';
     var dateTime = date + ' ' + time;
     document.getElementById("christmastime").innerHTML = dateTime;
 }
 function newyeartime() {
     var today = new Date();
-    var date = '<b>' + (today.getMonth() - 11) + ' month<br>' + (29 - today.getDate()) + ' days <br>';
+    var date = '<b>' + (today.getMonth() - 11) + ' month<br>' + (31 - today.getDate()) + ' days <br>';
     var time = (24 - today.getHours()) + " hours <br>" + (60 - today.getMinutes()) + " minutes <br>" + (60 - today.getSeconds()) + ' seconds </b>';
     var dateTime = date + ' ' + time;
     document.getElementById("newyeartime").innerHTML = dateTime;
 }
 function eastertime() {
     var today = new Date();
-    var date = '<b>' + (15 - today.getMonth()) + ' month<br>' + (17 - today.getDate()) + ' days <br>';
+    var date = '<b>' + (15 - today.getMonth()) + ' month<br>' + (18 - today.getDate()) + ' days <br>';
     var time = (24 - today.getHours()) + " hours <br>" + (60 - today.getMinutes()) + " minutes <br>" + (60 - today.getSeconds()) + ' seconds </b>';
     var dateTime = date + ' ' + time;
     document.getElementById("eastertime").innerHTML = dateTime;
